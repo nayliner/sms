@@ -46,8 +46,8 @@ body{
 	background-color:#ebeff2;
 }
 .btn-purple, .btn-purple:hover, .btn-purple:focus, .btn-purple:active {
-    background-color: #7266ba !important;
-    border: 1px solid #7266ba !important;
+    background-color: #e25359 !important;
+    border: 1px solid #e25359 !important;
     color: #ffffff;
 }
 .card-box{
@@ -63,7 +63,7 @@ body{
 <style>
 .text-custom{
 		
-	   color: #7266ba;
+	   color: #e25359;
 	}
 @media (max-width:650px){
 	   body{
@@ -111,7 +111,7 @@ body{
 <div class="wrapper-page">
 	<div class="card-box">
 		<div class="panel-heading">
-			<h3 class="text-center"> Sign In to <strong class="text-custom" >Knowtify</strong> </h3>
+			<h3 class="text-center"> Sign in to <strong class="text-custom" >Knowtify</strong> </h3>
 			<?php
 				if((isset($_SESSION['message'])) && (trim($_SESSION['message'])!='')){
 					echo $_SESSION['message']; unset($_SESSION['message']);
@@ -145,8 +145,8 @@ body{
 				</div>
 				<div class="form-group m-t-30 m-b-0">
 					<div class="col-sm-12">
-						<a href="forgot_password.php" class="text-dark" style="color:#7266BA"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
-						<a href="pricing_plans.php" class="text-dark" style="float:right; color:#7266BA">SignUp?</a>
+						<a href="forgot_password.php" class="text-dark" style="color:#e25359"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
+						<a href="pricing_plans.php" class="text-dark" style="float:right; color:#e25359">Sign Up Here</a>
 					</div>
 				</div>
 			</form>

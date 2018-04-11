@@ -163,7 +163,7 @@ if(mysqli_num_rows($exe)){
 </div>
 <div class="footer">
 	<div class="wrap">
-		<p>&copy; 2016  All rights  Reserved | Powered by &nbsp;<a href="http://ranksol.com">Ranksol</a></p>
+		<p>Powered by &nbsp;<a href="http://nayliner.com">Nayliner</a></p>
 	</div>
 </div>
 </body>

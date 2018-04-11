@@ -32,7 +32,7 @@ if(isset($uid) && trim($uid)!=''){
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="shortcut icon" href="images/favi.png">
-<title>Ranksol - Get Started</title>
+<title>Knowtify - Get Started</title>
 
 <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 <link href="assets/css/animate.min.css" rel="stylesheet"/>
@@ -204,6 +204,6 @@ input[type="checkbox"]{
 		</div>
 	</div>
 	<footer class="footer">
-		Powered by <a href="http://ranksol.com" target="_blank" style="text-decoration:none">Ranksol</a><br>Weaving a better web
+		Powered by <a href="http://nayliner.com" target="_blank" style="text-decoration:none">Nayliner</a>
 	</footer>
 </div>
