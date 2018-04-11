@@ -20,7 +20,7 @@ if(@$_SESSION['user_id']!=''){
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <link rel="shortcut icon" href="images/favi.png">
-<title>SMS Machine</title>
+<title>Knowtify</title>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 <meta name="viewport" content="width=device-width" />
 
@@ -111,7 +111,7 @@ body{
 <div class="wrapper-page">
 	<div class="card-box">
 		<div class="panel-heading">
-			<h3 class="text-center"> Sign In to <strong class="text-custom" >SMS Machine</strong> </h3>
+			<h3 class="text-center"> Sign In to <strong class="text-custom" >Knowtify</strong> </h3>
 			<?php
 				if((isset($_SESSION['message'])) && (trim($_SESSION['message'])!='')){
 					echo $_SESSION['message']; unset($_SESSION['message']);
