@@ -41,7 +41,7 @@
                             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                             data-key="<?php echo $AppSettings['stripe_publishable_key']; ?>"
                             data-amount="<?php echo $amount; ?>"
-                            data-name="Nimble Messageing Subscription"
+                            data-name="Knowtify SMS"
                             data-description="Add Credits"
                             data-image="<?php echo getServerUrl() ?>/images/nimble_messaging.png"
                             data-locale="auto">
@@ -53,6 +53,6 @@
 			</div>
 		</div>
 	</div>
-	<?php include_once("footer_text.php");?>
+	<?php include_once("footer_info.php");?>
 </div>
 <?php include_once("footer.php");?>
