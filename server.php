@@ -2006,7 +2006,6 @@
 							time_zone='".$_REQUEST['time_zone']."',
 							app_date_format='".$_REQUEST['app_date_format']."',
 							admin_email='".$_REQUEST['admin_email']."',
-							is_double_optin='".$_REQUEST['is_double_optin']."',
 							banned_words='".$_REQUEST['banned_words']."',
 							app_logo='".$appLogo."',
 							api_key='".$_REQUEST['api_key']."',
