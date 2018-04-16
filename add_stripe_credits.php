@@ -3,10 +3,10 @@
 include_once('database.php');
 include_once('functions.php');
 require_once('stripe-php/init.php');
-
+$appSettings= getAppSettings(1,true);
 // Set your secret key: remember to change this to your live secret key in production
 // See your keys here: https://dashboard.stripe.com/account/apikeys
-\Stripe\Stripe::setApiKey("sk_test_e2NIgh0TRBl5gHvaByx5cYZp");
+\Stripe\Stripe::setApiKey($appSettings['stripe_secret_key']);
 
 // Token is created using Stripe.js or Checkout!
 // Get the payment token submitted by the form:
@@ -35,7 +35,8 @@ try
     }else{
         $email = $user['email'];   
     }
-    $amount = $_REQUEST['amt']/100;
+    //$amount = $_REQUEST['amt']/100;
+	$amount = $_REQUEST['amt'];
     $userID = $user['id'];
     $quantity = $_REQUEST['q'];
     
@@ -90,7 +91,6 @@ catch(Exception $e)
     $_SESSION['message'] = "<div class='alert alert-danger'>Unable to Charge Card... <br> error:" . $e->getMessage().'</div>';
     header("location: settings.php");
 }
-
 //echo $_SESSION['message'];
 
 ?>

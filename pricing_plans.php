@@ -15,7 +15,7 @@ if(mysqli_num_rows($exe)){
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Nimble Pricing</title>
+<title>Knowtify Pricing</title>
 <link href="css/pricing_style.css" rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -51,7 +51,7 @@ if(mysqli_num_rows($exe)){
 <div class="pricing-plans">
 	<div class="wrap">
 		<div class="price-head">
-			<h1>Flat Pricing Tables Design</h1>
+			<h1>Knowtify Pricing</h1>
 		</div>
 		<?php        
         if(isset($_SESSION['authnet_response']) && $_SESSION['authnet_response']==1){

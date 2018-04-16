@@ -32,11 +32,6 @@
 					<!--<span class="notification"><?php echo $pkgStatus['message']?></span>--> 
 				</li>
 				<?php }?>
-				<li id="googletranslateelement">
-					<div id="google_translate_element" style=""></div>
-				</li>
-				<li> <a href="https://codecanyon.net/item/nimble-messaging-business-mobile-sms-marketing-application-for-android/20956083" target="_blank"><i class="fa fa-android" aria-hidden="true"></i>&nbsp;Get Mobile App</a> </li>
-				<li> <a href="help.php" target="_blank"><i class="fa fa-life-ring" aria-hidden="true"></i>&nbsp;Help</a> </li>
 				<?php
 				if($_SESSION['user_type']=='1'){
 					if($displayUpdate=='none'){
